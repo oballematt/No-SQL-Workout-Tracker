@@ -6,6 +6,10 @@
   ## Description
 
   When the user loads teh page, they will be given an option to add a new workout or continue their last workout. If the user clicks on new workout, they will be directed to a page that will ask them if they want resistance or cardio workouts. If the user chooses resistance,tThey will then add what workout they performed, how many reps, how many sets, and the duration of their workout. If the user chooses cardio, they will enter what cardio exercise they performed, how many miles they went and how long the exercise was performed for. Back at the homepage, whatever info the user inputed, will appear under last workout with the information they inputed about the workout. In the top left corner, the user can click dashboard, which will take them to a chart that logs all of their workout information.
+
+  ![Homepage](public/assets/homepage.jpg)
+  ![New Workout](public/assets/newWorkout.jpg)
+  ![Dashboard](public/assets/dashboard.jpg)
   
   ## Table of Contents
   * [Installation](#installation)
