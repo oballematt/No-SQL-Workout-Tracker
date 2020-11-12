@@ -11,6 +11,11 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(express.static('public'));
 
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/custommethoddb", { useNewUrlParser: true,  useFindAndModify:false });
+
+
+require("./routes/htmlRoutes")(app);
+
 
 app.listen(PORT,function(){ 
     console.log(`App listening on Port ${PORT}`);
