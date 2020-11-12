@@ -19,10 +19,10 @@ module.exports = function (app) {
         })
     })
 
-    app.put("/api/workouts:id", function({body, params}, res){
+    app.put("/api/workouts/:id", function({body, params}, res){
         db.Workout.findByIdAndUpdate(
             params.id,
-            {$push: {exercies: body}},
+            {$push: {exercises: body}},
             {new: true}
         )
         .then(dbWorkout =>{
@@ -33,7 +33,7 @@ module.exports = function (app) {
         })
     })
 
-    app.get("api/workouts/range", function (req, res){
+    app.get("/api/workouts/range", function (req, res){
         db.Workout.find({}).then(dbWorkout =>{
             res.json(dbWorkout)
         })
