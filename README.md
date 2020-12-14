@@ -17,6 +17,7 @@
   * [Usage](#usage)
   * [Contribution](#contribution)
   * [License](#license)
+  * [Technology](#technology)
   ## Installation
   
   This project is hosted on heroku so anyone can access this without installing. However, if you wish to contribute to the app, you must install express, morgan, and mongoose.
@@ -25,6 +26,13 @@
   ## Usage
   
   follow the prompts given on the webpage. Refer to description for more information.
+  
+  ## Technology
+  *MongoDb
+  *Express
+  *HTML
+  *CSS
+  *JavaScript ES6
   
   
   ## Contribution
