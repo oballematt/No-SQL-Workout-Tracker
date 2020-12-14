@@ -28,11 +28,11 @@
   follow the prompts given on the webpage. Refer to description for more information.
   
   ## Technology
-  *MongoDb
-  *Express
-  *HTML
-  *CSS
-  *JavaScript ES6
+  * MongoDb
+  * Express
+  * HTML
+  * CSS
+  * JavaScript ES6
   
   
   ## Contribution
